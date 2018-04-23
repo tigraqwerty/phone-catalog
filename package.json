@@ -1,0 +1,42 @@
+{
+  "name": "react_resfull_nodejs",
+  "version": "1.0.0",
+  "description": "A node.js simple REST api and react phone catalog app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm start\"",
+    "client": "cd ./src/phones && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tigraqwerty/phone-catalog.git"
+  },
+  "keywords": [
+    "nodejs",
+    "react",
+    "RESTfull"
+  ],
+  "author": "Tigran Saakyan - <tigraqwery@gmain.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tigraqwerty/phone-catalog/issues"
+  },
+  "homepage": "https://github.com/tigraqwerty/phone-catalog#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3",
+    "material-ui": "^1.0.0-beta.43",
+    "morgan": "^1.9.0",
+    "next": "^5.1.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
