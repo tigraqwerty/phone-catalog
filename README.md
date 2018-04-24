@@ -27,7 +27,7 @@ npm run server_start
 
 ## Running the tests
 
-its a simple TestRunner of react Jest
+its a simple TestRunner of react Jest.
 
 ### Break down into end to end tests
 
