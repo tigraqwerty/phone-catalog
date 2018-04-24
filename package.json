@@ -4,9 +4,9 @@
   "description": "A node.js simple REST api and react phone catalog app",
   "main": "index.js",
   "scripts": {
-    "prestart" : "npm install",
+    "prestart": "npm install",
     "postinstall": "cd ./src/phones && npm install",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "cd ./src/phones && npm test",
     "dev": "nodemon ./server/server.js",
     "server_start": "concurrently --kill-others-on-fail \"npm run dev\"  \"npm run client\"",
     "client": "cd ./src/phones && npm start"

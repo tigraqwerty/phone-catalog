@@ -27,14 +27,14 @@ npm run server_start
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+its a simple TestRunner of react Jest
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
+for load test need to run command
 
 ```
-Give an example
+npm run test
 ```
 
 
